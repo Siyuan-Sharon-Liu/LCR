@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -0 git update-index --skip-worktree)",
+      "Bash(python3 -c \"import sys,json; nb=json.load\\(sys.stdin\\); [print\\(c['source'][0][:80] if c['source'] else '\\(empty\\)'\\) for c in nb['cells'] if c['cell_type']=='markdown']\")",
+      "Bash(gh pr *)",
+      "Bash(python3 -c ' *)",
+      "Bash(git checkout *)",
+      "Bash(git fetch *)",
+      "Bash(uv run *)",
+      "Bash(/Users/liusiyuan/Library/CloudStorage/Dropbox/Mac \\(2\\)/Documents/career/DS/uoft_dsi/4_LCR/lcr-env/bin/python *)"
+    ]
+  }
+}
