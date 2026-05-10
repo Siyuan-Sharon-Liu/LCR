@@ -7,3 +7,4 @@ tmp/
 uv.lock
 lcr-env
 .venv
+.claude/settings.local.json
